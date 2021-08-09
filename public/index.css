@@ -1,0 +1,20 @@
+body, html {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: lightgray;
+  /* when using lower resolution graphics we want the canvas to display our images crisply with no anti aliasing/ blurring*/
+  image-rendering: optimizeSpeed;              /* Older versions of FF */
+  image-rendering: -moz-crisp-edges;           /* FF 6.0+ */
+  image-rendering: -webkit-optimize-contrast;  /* Webkit (non standard naming) */
+  image-rendering: -o-crisp-edges;             /* OS X & Windows Opera (12.02+) */
+  image-rendering: crisp-edges;                /* Possible future browsers. */
+  -ms-interpolation-mode: nearest-neighbor;    /* IE (non standard naming) */
+  image-rendering: pixelated;                  
+}
+body {
+  display: flex;
+  justify-content: center;
+}
