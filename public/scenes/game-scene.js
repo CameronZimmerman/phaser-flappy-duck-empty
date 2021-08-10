@@ -7,7 +7,6 @@ export class GameScene extends Phaser.Scene {
         key: "GameScene"
       });
     }
-  //init() method is the first method called when we load our scene. We can initialize values needed in the scene here and optionally accept values sent from a previous scene
   init() {
       
     }
@@ -18,7 +17,6 @@ export class GameScene extends Phaser.Scene {
   create() {
     
   }
-  // the update aims to run 60 times a second, and is where we handle interactions between gameObjects
   update() {
     
   }
